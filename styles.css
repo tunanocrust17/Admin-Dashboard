@@ -5,6 +5,8 @@ body {
 .header {
     display: grid;
     grid-template-columns: 1fr 5fr;
+
+    padding: 25px 50px;
 }
 
 .top-header {
@@ -17,14 +19,14 @@ body {
 }
 
 .search {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
+    display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .alerts {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -35,12 +37,8 @@ body {
 
 /*image stlying*/
 
-.magnify, .bell {
+.magnify, .bell, .btm-hdr-smile {
     height: 30px;
     width: 30px;
-}
-
-.btm-hdr-smile{
-    height: 30px;
-    width: 30px;
+    filter: invert(45%) sepia(55%) saturate(3079%) hue-rotate(188deg) brightness(94%) contrast(90%);
 }
