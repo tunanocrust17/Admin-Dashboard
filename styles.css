@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.top-header {
+    grid-column: 2 / 3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 200px;
+}
+
+.search {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.alerts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
