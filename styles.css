@@ -32,6 +32,14 @@ body {
     display: grid;
 }
 
+
+/*image stlying*/
+
+.magnify, .bell {
+    height: 30px;
+    width: 30px;
+}
+
 .btm-hdr-smile{
     height: 30px;
     width: 30px;
