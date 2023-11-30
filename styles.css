@@ -13,14 +13,26 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 200px;
+    align-items: center;
 }
 
 .search {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    align-items: center;
 }
 
 .alerts {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.bottom-header {
+    display: grid;
+}
+
+.btm-hdr-smile{
+    height: 30px;
+    width: 30px;
 }
