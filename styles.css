@@ -58,7 +58,7 @@ body {
     color: white;
 }
 
-.home, .profile, .messages, .history, .tasks, .communities {
+.home, .profile, .messages, .history, .tasks, .communities, .settings, .support, .privacy {
     display: flex;
     align-items: center;
     justify-content: left;
@@ -95,7 +95,7 @@ body {
     filter: invert(45%) sepia(55%) saturate(3079%) hue-rotate(188deg) brightness(94%) contrast(90%);
 }
 
-.home-logo {
+.home-logo, .settings-logo, .help-logo, .shield-logo {
     height: 30px;
     width: 30px;
     filter: invert(89%) sepia(14%) saturate(74%) hue-rotate(165deg) brightness(110%) contrast(100%);
