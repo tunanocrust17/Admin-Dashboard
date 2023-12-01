@@ -64,8 +64,21 @@ body {
     justify-content: left;
 }
 
-.main-content {
+.main-content-container {
     grid-column: 2 / 3;
+
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+    padding: 0 50px;
+
+    background-color: #EAEEF1;
+}
+
+
+.news-container {
+    display: flex;
+    flex-direction: column;
 }
 
 /*image stlying*/
