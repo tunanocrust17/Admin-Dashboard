@@ -54,11 +54,13 @@ body {
     align-items: left;
     flex-direction: column;
     background-color: #1C81E5;
+    height: 100vh;
+    background-size: cover;
 
     color: white;
 }
 
-.home, .profile, .messages, .history, .tasks, .communities, .settings, .support, .privacy {
+.dashboard, .home, .profile, .messages, .history, .tasks, .communities, .settings, .support, .privacy {
     display: flex;
     align-items: center;
     justify-content: left;
@@ -75,11 +77,21 @@ body {
     background-color: #EAEEF1;
 }
 
+.articles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .articles .card {
     background-color: #FFFFFF;
     text-align: center;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
+    border-radius: 5%;
+    box-shadow: 5px 10px #888888;
+    /* border-left-style: solid;
+    border-left-color: coral; */
+    background-image: linear-gradient(to right, orange 3%, rgba(0,0,0,0) 2%)
 }
 
 .card .title {
@@ -108,6 +120,12 @@ body {
     height: 90px;
     width: 90px;
     filter: invert(45%) sepia(55%) saturate(3079%) hue-rotate(188deg) brightness(94%) contrast(90%);
+}
+
+.dashboard-logo {
+    height: 50px;
+    width: 50px;
+    filter: invert(89%) sepia(14%) saturate(74%) hue-rotate(165deg) brightness(110%) contrast(100%);
 }
 
 .home-logo, .card-logo, .message-logo, 
