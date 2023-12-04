@@ -17,6 +17,8 @@ body {
     grid-template-rows: .5fr 1fr;
 
     padding: 25px 50px;
+    position: relative;
+    box-shadow: 0px 8px 6px -6px rgb(83, 83, 83);
 }
 
 .top-header {
@@ -46,9 +48,14 @@ body {
 
 .btm-hdr-name {
     display: flex;
+    justify-content: space-between;
 }
 
 .greeting {
+    display: flex;
+}
+
+.user-greeting {
     display: flex;
     flex-direction: column;
 }
@@ -96,9 +103,7 @@ body {
     height: 250px;
     width: 250px;
     border-radius: 5%;
-    box-shadow: 5px 10px #888888;
-    /* border-left-style: solid;
-    border-left-color: coral; */
+    box-shadow: 0px 8px 6px rgb(83, 83, 83);
     background-image: linear-gradient(to right, orange 3%, rgba(0,0,0,0) 2%)
 }
 
