@@ -74,10 +74,21 @@ body {
     color: white;
 }
 
-.dashboard, .home, .profile, .messages, .history, .tasks, .communities, .settings, .support, .privacy {
+.dashboard {
     display: flex;
     align-items: center;
     justify-content: left;
+    gap: 20px;
+    padding-left: 10px;
+}
+
+.home, .profile, .messages, .history, .tasks, .communities, .settings, .support, .privacy {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    padding-left: 25px;
+    font-size: 18px;
 }
 
 .main-content-container {
